@@ -267,6 +267,4 @@ var Elevator = function(options) {
     init(options);
 };
 
-if (typeof module !== "undefined" && module.exports) {
-    module.exports = Elevator;
-}
+export default Elevator;
